@@ -1,24 +1,16 @@
-
-
-
-
-
-
 import polars
-
 
 
 from polars import from_arrow
 
 
-FOO = 'some string'
+FOO = "some string"
 
 BAR = 1254
 
+thing = "stuff " + " thing " + " blah"
+
 thing = (
-    'stuff ' + 
-    ' thing ' + 
-    ' blah'
-    )
-
-
+    "really long pairs of strings that extend a long way along a line and should be split "
+    + "really long pairs of strings that extend a long way along a line and should be split "
+)
